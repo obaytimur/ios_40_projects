@@ -8,16 +8,44 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var counter = 0
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack{
+            VStack{
+                Spacer()
+                Text("\(counter)")
+                    .toolbar {
+                        Button(action: {
+                            counter = 0
+                        }) {
+                            Text("Reset")
+                                .font(.system(size: 25))
+                        }
+                    }
+                Spacer()
+                HStack{
+                    Button(action: {
+                        counter -= 1
+                    }) {
+                        Image(systemName: "minus")
+                            .fixedSize()
+                    }
+                    Spacer()
+                        .frame(width: 30)
+                    Button(action: {
+                        counter += 1
+                    }) {
+                        Image(systemName: "plus")
+                            .fixedSize()
+                    }
+                    
+                }
+            }
+            .navigationTitle("Counter")
+            .font(.system(size: 50))
+            .navigationBarTitleDisplayMode(.inline)
         }
-        .padding()
-        .background(Rectangle()
-            .foregroundColor(Color(UIColor.systemBackground)))
     }
 }
 
