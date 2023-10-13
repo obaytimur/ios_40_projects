@@ -31,6 +31,7 @@ struct ContentView: View {
                         Image(systemName: "minus")
                             .fixedSize()
                     }
+                    .buttonRepeatBehavior(.enabled)
                     Spacer()
                         .frame(width: 30)
                     Button(action: {
@@ -39,7 +40,7 @@ struct ContentView: View {
                         Image(systemName: "plus")
                             .fixedSize()
                     }
-                    
+                    .buttonRepeatBehavior(.enabled)
                 }
             }
             .navigationTitle("Counter")
