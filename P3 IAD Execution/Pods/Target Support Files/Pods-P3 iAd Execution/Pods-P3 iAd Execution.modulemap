@@ -1,0 +1,6 @@
+framework module Pods_P3_iAd_Execution {
+  umbrella header "Pods-P3 iAd Execution-umbrella.h"
+
+  export *
+  module * { export * }
+}

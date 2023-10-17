@@ -1,0 +1,6 @@
+framework module Pods_P3_iAd_ExecutionTests {
+  umbrella header "Pods-P3 iAd ExecutionTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
