@@ -9,12 +9,23 @@ import SwiftUI
 import GoogleMobileAds
 
 struct ContentView: View {
+    init() {
+        // Start Google Mobile Ads
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
+    }
+    
     var body: some View {
-      VStack {
-        Text("Google Admob")
-        
-        GADBannerViewController()
-      }
+        VStack {
+            AdBannerView(adUnitID: "ca-app-pub-8036978542584938~9249295945") // Replace with your ad unit ID
+                .frame(height: 50)
+            
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            
+            Text("Hello, world!")
+        }
+        .padding()
     }
 }
 
@@ -24,30 +35,17 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-// MARK: - GADBannerViewController
+// UIViewRepresentable wrapper for AdMob banner view
+struct AdBannerView: UIViewRepresentable {
+    let adUnitID: String
 
-struct GADBannerViewController: UIViewControllerRepresentable {
-  
-  func makeUIViewController(context: Context) -> some UIViewController {
-    let view = GADBannerView(adSize: kGADAdSizeBanner)
-    let viewController = UIViewController()
-    let testID = "ca-app-pub-3940256099942544/2934735716"
-    let realID = "ca-app-pub-9450475706334809/7473547174"
+    func makeUIView(context: Context) -> GADBannerView {
+        let bannerView = GADBannerView(adSize: GADAdSizeFromCGSize(CGSize(width: 320, height: 50))) // Set your desired banner ad size
+        bannerView.adUnitID = adUnitID
+        bannerView.rootViewController = UIApplication.shared.windows.first?.rootViewController
+        bannerView.load(GADRequest())
+        return bannerView
+    }
     
-    // Banner Ad
-    view.adUnitID = realID
-    view.rootViewController = viewController
-    
-    // View Controller
-    viewController.view.addSubview(view)
-    viewController.view.frame = CGRect(origin: .zero, size: kGADAdSizeBanner.size)
-    
-    // Load an ad
-    view.load(GADRequest())
-    
-    return viewController
-  }
-  
-  func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {}
-  
+    func updateUIView(_ uiView: GADBannerView, context: Context) {}
 }
