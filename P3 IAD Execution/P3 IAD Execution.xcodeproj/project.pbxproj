@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0553673E06CDF5DE9F98C2EE /* Pods_P3_iAd_Execution_P3_iAd_ExecutionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC44515AC6A815A56274B58 /* Pods_P3_iAd_Execution_P3_iAd_ExecutionUITests.framework */; };
+		4E6115B6511EB28B88014B5D /* Pods_P3_iAd_Execution.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D5471CE530918EFAD3FB98 /* Pods_P3_iAd_Execution.framework */; };
+		EE05A7072ADF25440075B79E /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE05A7062ADF25440075B79E /* AdServices.framework */; };
 		EEEF1A452ADB34EF00458071 /* P3_iAd_ExecutionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEF1A442ADB34EF00458071 /* P3_iAd_ExecutionApp.swift */; };
 		EEEF1A472ADB34EF00458071 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEF1A462ADB34EF00458071 /* ContentView.swift */; };
 		EEEF1A492ADB34F000458071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEF1A482ADB34F000458071 /* Assets.xcassets */; };
@@ -14,6 +17,7 @@
 		EEEF1A562ADB34F000458071 /* P3_iAd_ExecutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEF1A552ADB34F000458071 /* P3_iAd_ExecutionTests.swift */; };
 		EEEF1A602ADB34F000458071 /* P3_iAd_ExecutionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEF1A5F2ADB34F000458071 /* P3_iAd_ExecutionUITests.swift */; };
 		EEEF1A622ADB34F000458071 /* P3_iAd_ExecutionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEF1A612ADB34F000458071 /* P3_iAd_ExecutionUITestsLaunchTests.swift */; };
+		F0121A8A0B7CA2AA11C72DC2 /* Pods_P3_iAd_ExecutionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D25689A35C0DA685F9403D29 /* Pods_P3_iAd_ExecutionTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A30E59FFF79348921194D22 /* Pods-P3 iAd Execution-P3 iAd ExecutionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P3 iAd Execution-P3 iAd ExecutionUITests.release.xcconfig"; path = "Target Support Files/Pods-P3 iAd Execution-P3 iAd ExecutionUITests/Pods-P3 iAd Execution-P3 iAd ExecutionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		23D5471CE530918EFAD3FB98 /* Pods_P3_iAd_Execution.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_P3_iAd_Execution.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DFB0D8925A09200FE65C7E /* Pods-P3 iAd ExecutionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P3 iAd ExecutionTests.debug.xcconfig"; path = "Target Support Files/Pods-P3 iAd ExecutionTests/Pods-P3 iAd ExecutionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		483A18D85B5D5DB4B4334B10 /* Pods-P3 iAd Execution-P3 iAd ExecutionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P3 iAd Execution-P3 iAd ExecutionUITests.debug.xcconfig"; path = "Target Support Files/Pods-P3 iAd Execution-P3 iAd ExecutionUITests/Pods-P3 iAd Execution-P3 iAd ExecutionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CC44515AC6A815A56274B58 /* Pods_P3_iAd_Execution_P3_iAd_ExecutionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_P3_iAd_Execution_P3_iAd_ExecutionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C5F93F087F9438F55D80C9 /* Pods-P3 iAd ExecutionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P3 iAd ExecutionTests.release.xcconfig"; path = "Target Support Files/Pods-P3 iAd ExecutionTests/Pods-P3 iAd ExecutionTests.release.xcconfig"; sourceTree = "<group>"; };
+		CCC44BD76EC5BA5CD0A1BD04 /* Pods-P3 iAd Execution.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P3 iAd Execution.debug.xcconfig"; path = "Target Support Files/Pods-P3 iAd Execution/Pods-P3 iAd Execution.debug.xcconfig"; sourceTree = "<group>"; };
+		D25689A35C0DA685F9403D29 /* Pods_P3_iAd_ExecutionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_P3_iAd_ExecutionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE05A7042ADF23EA0075B79E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		EE05A7062ADF25440075B79E /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
 		EEEF1A412ADB34EF00458071 /* P3 iAd Execution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P3 iAd Execution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEF1A442ADB34EF00458071 /* P3_iAd_ExecutionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P3_iAd_ExecutionApp.swift; sourceTree = "<group>"; };
 		EEEF1A462ADB34EF00458071 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +58,8 @@
 		EEEF1A5B2ADB34F000458071 /* P3 iAd ExecutionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P3 iAd ExecutionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEF1A5F2ADB34F000458071 /* P3_iAd_ExecutionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P3_iAd_ExecutionUITests.swift; sourceTree = "<group>"; };
 		EEEF1A612ADB34F000458071 /* P3_iAd_ExecutionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P3_iAd_ExecutionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EEF5F2F82ADF2C50005FC13D /* P3-iAd-Execution-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "P3-iAd-Execution-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F3D2085ACE2D0AC8B48C3AE6 /* Pods-P3 iAd Execution.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P3 iAd Execution.release.xcconfig"; path = "Target Support Files/Pods-P3 iAd Execution/Pods-P3 iAd Execution.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE05A7072ADF25440075B79E /* AdServices.framework in Frameworks */,
+				4E6115B6511EB28B88014B5D /* Pods_P3_iAd_Execution.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0121A8A0B7CA2AA11C72DC2 /* Pods_P3_iAd_ExecutionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +84,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0553673E06CDF5DE9F98C2EE /* Pods_P3_iAd_Execution_P3_iAd_ExecutionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4262B2E4DC464FA65916A4F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCC44BD76EC5BA5CD0A1BD04 /* Pods-P3 iAd Execution.debug.xcconfig */,
+				F3D2085ACE2D0AC8B48C3AE6 /* Pods-P3 iAd Execution.release.xcconfig */,
+				483A18D85B5D5DB4B4334B10 /* Pods-P3 iAd Execution-P3 iAd ExecutionUITests.debug.xcconfig */,
+				0A30E59FFF79348921194D22 /* Pods-P3 iAd Execution-P3 iAd ExecutionUITests.release.xcconfig */,
+				30DFB0D8925A09200FE65C7E /* Pods-P3 iAd ExecutionTests.debug.xcconfig */,
+				C9C5F93F087F9438F55D80C9 /* Pods-P3 iAd ExecutionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE05A7032ADF23EA0075B79E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE05A7062ADF25440075B79E /* AdServices.framework */,
+				EE05A7042ADF23EA0075B79E /* iAd.framework */,
+				23D5471CE530918EFAD3FB98 /* Pods_P3_iAd_Execution.framework */,
+				7CC44515AC6A815A56274B58 /* Pods_P3_iAd_Execution_P3_iAd_ExecutionUITests.framework */,
+				D25689A35C0DA685F9403D29 /* Pods_P3_iAd_ExecutionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EEEF1A382ADB34EF00458071 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +123,8 @@
 				EEEF1A542ADB34F000458071 /* P3 iAd ExecutionTests */,
 				EEEF1A5E2ADB34F000458071 /* P3 iAd ExecutionUITests */,
 				EEEF1A422ADB34EF00458071 /* Products */,
+				EE05A7032ADF23EA0075B79E /* Frameworks */,
+				4262B2E4DC464FA65916A4F4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +141,7 @@
 		EEEF1A432ADB34EF00458071 /* P3 iAd Execution */ = {
 			isa = PBXGroup;
 			children = (
+				EEF5F2F82ADF2C50005FC13D /* P3-iAd-Execution-Info.plist */,
 				EEEF1A442ADB34EF00458071 /* P3_iAd_ExecutionApp.swift */,
 				EEEF1A462ADB34EF00458071 /* ContentView.swift */,
 				EEEF1A482ADB34F000458071 /* Assets.xcassets */,
@@ -134,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEEF1A652ADB34F000458071 /* Build configuration list for PBXNativeTarget "P3 iAd Execution" */;
 			buildPhases = (
+				D21A4471E86133E03C02BDB1 /* [CP] Check Pods Manifest.lock */,
 				EEEF1A3D2ADB34EF00458071 /* Sources */,
 				EEEF1A3E2ADB34EF00458071 /* Frameworks */,
 				EEEF1A3F2ADB34EF00458071 /* Resources */,
+				1EBB17FF356680E8D1F20674 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEEF1A682ADB34F000458071 /* Build configuration list for PBXNativeTarget "P3 iAd ExecutionTests" */;
 			buildPhases = (
+				43579BF5D75DD081932E5013 /* [CP] Check Pods Manifest.lock */,
 				EEEF1A4D2ADB34F000458071 /* Sources */,
 				EEEF1A4E2ADB34F000458071 /* Frameworks */,
 				EEEF1A4F2ADB34F000458071 /* Resources */,
@@ -169,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEEF1A6B2ADB34F000458071 /* Build configuration list for PBXNativeTarget "P3 iAd ExecutionUITests" */;
 			buildPhases = (
+				8C61E722EC671A67CA2A787E /* [CP] Check Pods Manifest.lock */,
 				EEEF1A572ADB34F000458071 /* Sources */,
 				EEEF1A582ADB34F000458071 /* Frameworks */,
 				EEEF1A592ADB34F000458071 /* Resources */,
+				5AEAF406EBA280E7D4F0A213 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +304,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EBB17FF356680E8D1F20674 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P3 iAd Execution/Pods-P3 iAd Execution-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P3 iAd Execution/Pods-P3 iAd Execution-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-P3 iAd Execution/Pods-P3 iAd Execution-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43579BF5D75DD081932E5013 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-P3 iAd ExecutionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AEAF406EBA280E7D4F0A213 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P3 iAd Execution-P3 iAd ExecutionUITests/Pods-P3 iAd Execution-P3 iAd ExecutionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P3 iAd Execution-P3 iAd ExecutionUITests/Pods-P3 iAd Execution-P3 iAd ExecutionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-P3 iAd Execution-P3 iAd ExecutionUITests/Pods-P3 iAd Execution-P3 iAd ExecutionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C61E722EC671A67CA2A787E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-P3 iAd Execution-P3 iAd ExecutionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D21A4471E86133E03C02BDB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-P3 iAd Execution-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EEEF1A3D2ADB34EF00458071 /* Sources */ = {
@@ -416,6 +572,7 @@
 		};
 		EEEF1A662ADB34F000458071 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC44BD76EC5BA5CD0A1BD04 /* Pods-P3 iAd Execution.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -424,6 +581,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"P3 iAd Execution/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "P3-iAd-Execution-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -444,6 +602,7 @@
 		};
 		EEEF1A672ADB34F000458071 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D2085ACE2D0AC8B48C3AE6 /* Pods-P3 iAd Execution.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +611,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"P3 iAd Execution/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "P3-iAd-Execution-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -472,6 +632,7 @@
 		};
 		EEEF1A692ADB34F000458071 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30DFB0D8925A09200FE65C7E /* Pods-P3 iAd ExecutionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +652,7 @@
 		};
 		EEEF1A6A2ADB34F000458071 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C5F93F087F9438F55D80C9 /* Pods-P3 iAd ExecutionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +672,7 @@
 		};
 		EEEF1A6C2ADB34F000458071 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483A18D85B5D5DB4B4334B10 /* Pods-P3 iAd Execution-P3 iAd ExecutionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +690,7 @@
 		};
 		EEEF1A6D2ADB34F000458071 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A30E59FFF79348921194D22 /* Pods-P3 iAd Execution-P3 iAd ExecutionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
