@@ -16,14 +16,15 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            AdBannerView(adUnitID: "ca-app-pub-8036978542584938~9249295945") // Replace with your ad unit ID
-                .frame(height: 50)
-            
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            
             Text("Hello, world!")
+            
+             Spacer()
+            
+            AdBannerView(adUnitID: "ca-app-pub-8036978542584938/5717245049") // Replace with your ad unit ID
+                .frame(height: 50)
         }
         .padding()
     }
