@@ -6,4 +6,16 @@ How to add google ads to an iOS app:
 4. "open Podfile ."
 5. Add google pod to "Pods" section
 6. From terminal "pod install --repo-update
+7. Open file with .xcodeworkspace extension
+8. Add Project/Info/URL Types
+9. Update info.plist from admob page between <dict> asset\
+10. Update AppID into first <string> 
+11. Update codes with banner UI function
+12. Import GoogleMobileAds
+13. Pass bannerID into function
+
+Now the ad should be seen in the app. 
+
+These procedures can be seen in the video below.
+https://www.youtube.com/watch?v=OLs5dVRdN3c
 
