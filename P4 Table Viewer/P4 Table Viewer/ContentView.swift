@@ -10,9 +10,12 @@ import SwiftUI
 struct ContentView: View {
     @Binding var dockets: [docket]
     var body: some View {
-        List($dockets){ $docket in
-            cardView(docket: docket)
-            
+        NavigationStack {
+            List($dockets){ $docket in
+                NavigationLink(destination: detailView(dockets: $docket)) {
+                    cardView(docket: docket)
+                }
+            }
         }
     }
 }

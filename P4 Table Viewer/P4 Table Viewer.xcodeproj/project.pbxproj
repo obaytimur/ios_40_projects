@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE14643B2AE5C44D005D786E /* detailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE14643A2AE5C44D005D786E /* detailView.swift */; };
 		EE4E75482AE309250093F7D4 /* P4_Table_ViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4E75472AE309250093F7D4 /* P4_Table_ViewerApp.swift */; };
 		EE4E754A2AE309250093F7D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4E75492AE309250093F7D4 /* ContentView.swift */; };
 		EE4E754C2AE309260093F7D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4E754B2AE309260093F7D4 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE14643A2AE5C44D005D786E /* detailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailView.swift; sourceTree = "<group>"; };
 		EE4E75442AE309250093F7D4 /* P4 Table Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P4 Table Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE4E75472AE309250093F7D4 /* P4_Table_ViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P4_Table_ViewerApp.swift; sourceTree = "<group>"; };
 		EE4E75492AE309250093F7D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		EE4E75462AE309250093F7D4 /* P4 Table Viewer */ = {
 			isa = PBXGroup;
 			children = (
+				EE14643A2AE5C44D005D786E /* detailView.swift */,
 				EE6D39A92AE427A200202818 /* docket.swift */,
 				EE6D39AB2AE45F2D00202818 /* cardView.swift */,
 				EE4E75472AE309250093F7D4 /* P4_Table_ViewerApp.swift */,
@@ -267,6 +270,7 @@
 				EE4E75482AE309250093F7D4 /* P4_Table_ViewerApp.swift in Sources */,
 				EE6D39AC2AE45F2D00202818 /* cardView.swift in Sources */,
 				EE6D39AA2AE427A200202818 /* docket.swift in Sources */,
+				EE14643B2AE5C44D005D786E /* detailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
