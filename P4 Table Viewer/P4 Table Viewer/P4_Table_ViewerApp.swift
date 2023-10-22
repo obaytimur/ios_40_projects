@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct P4_Table_ViewerApp: App {
-    @State private var stored: docket()
+    @State private var stored = docket.sampleData
     var body: some Scene {
         WindowGroup {
             ContentView(dockets: $stored)
