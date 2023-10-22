@@ -14,6 +14,8 @@
 		EE4E75592AE309260093F7D4 /* P4_Table_ViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4E75582AE309260093F7D4 /* P4_Table_ViewerTests.swift */; };
 		EE4E75632AE309260093F7D4 /* P4_Table_ViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4E75622AE309260093F7D4 /* P4_Table_ViewerUITests.swift */; };
 		EE4E75652AE309260093F7D4 /* P4_Table_ViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4E75642AE309260093F7D4 /* P4_Table_ViewerUITestsLaunchTests.swift */; };
+		EE6D39AA2AE427A200202818 /* docket.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D39A92AE427A200202818 /* docket.swift */; };
+		EE6D39AC2AE45F2D00202818 /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D39AB2AE45F2D00202818 /* cardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		EE4E755E2AE309260093F7D4 /* P4 Table ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P4 Table ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE4E75622AE309260093F7D4 /* P4_Table_ViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P4_Table_ViewerUITests.swift; sourceTree = "<group>"; };
 		EE4E75642AE309260093F7D4 /* P4_Table_ViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P4_Table_ViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE6D39A92AE427A200202818 /* docket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = docket.swift; sourceTree = "<group>"; };
+		EE6D39AB2AE45F2D00202818 /* cardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		EE4E75462AE309250093F7D4 /* P4 Table Viewer */ = {
 			isa = PBXGroup;
 			children = (
+				EE6D39A92AE427A200202818 /* docket.swift */,
+				EE6D39AB2AE45F2D00202818 /* cardView.swift */,
 				EE4E75472AE309250093F7D4 /* P4_Table_ViewerApp.swift */,
 				EE4E75492AE309250093F7D4 /* ContentView.swift */,
 				EE4E754B2AE309260093F7D4 /* Assets.xcassets */,
@@ -259,6 +265,8 @@
 			files = (
 				EE4E754A2AE309250093F7D4 /* ContentView.swift in Sources */,
 				EE4E75482AE309250093F7D4 /* P4_Table_ViewerApp.swift in Sources */,
+				EE6D39AC2AE45F2D00202818 /* cardView.swift in Sources */,
+				EE6D39AA2AE427A200202818 /* docket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Binding var dockets: [docket]
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List($dockets){ $docket in
+            cardView(docket: docket)
+            
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider{
+    static var previews: some View{
+        ContentView(dockets: .constant(docket.sampleData))
+    }
 }
