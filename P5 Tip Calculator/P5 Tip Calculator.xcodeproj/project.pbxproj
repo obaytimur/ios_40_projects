@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE597D5A2AE687F3005EF8D7 /* P5_Tip_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE597D592AE687F3005EF8D7 /* P5_Tip_CalculatorApp.swift */; };
+		EE597D5C2AE687F3005EF8D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE597D5B2AE687F3005EF8D7 /* ContentView.swift */; };
+		EE597D5E2AE687F4005EF8D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE597D5D2AE687F4005EF8D7 /* Assets.xcassets */; };
+		EE597D612AE687F4005EF8D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE597D602AE687F4005EF8D7 /* Preview Assets.xcassets */; };
+		EE597D6B2AE687F4005EF8D7 /* P5_Tip_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE597D6A2AE687F4005EF8D7 /* P5_Tip_CalculatorTests.swift */; };
+		EE597D752AE687F4005EF8D7 /* P5_Tip_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE597D742AE687F4005EF8D7 /* P5_Tip_CalculatorUITests.swift */; };
+		EE597D772AE687F4005EF8D7 /* P5_Tip_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE597D762AE687F4005EF8D7 /* P5_Tip_CalculatorUITestsLaunchTests.swift */; };
+		EE597D8A2AE6890F005EF8D7 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE597D892AE6890F005EF8D7 /* KeyboardViewController.swift */; };
+		EE597D8E2AE6890F005EF8D7 /* decimalKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EE597D872AE6890F005EF8D7 /* decimalKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE597D672AE687F4005EF8D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE597D4E2AE687F3005EF8D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE597D552AE687F3005EF8D7;
+			remoteInfo = "P5 Tip Calculator";
+		};
+		EE597D712AE687F4005EF8D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE597D4E2AE687F3005EF8D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE597D552AE687F3005EF8D7;
+			remoteInfo = "P5 Tip Calculator";
+		};
+		EE597D8C2AE6890F005EF8D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE597D4E2AE687F3005EF8D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE597D862AE6890F005EF8D7;
+			remoteInfo = decimalKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE597D922AE6890F005EF8D7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EE597D8E2AE6890F005EF8D7 /* decimalKeyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE597D562AE687F3005EF8D7 /* P5 Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P5 Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE597D592AE687F3005EF8D7 /* P5_Tip_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5_Tip_CalculatorApp.swift; sourceTree = "<group>"; };
+		EE597D5B2AE687F3005EF8D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE597D5D2AE687F4005EF8D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE597D602AE687F4005EF8D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE597D662AE687F4005EF8D7 /* P5 Tip CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P5 Tip CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE597D6A2AE687F4005EF8D7 /* P5_Tip_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5_Tip_CalculatorTests.swift; sourceTree = "<group>"; };
+		EE597D702AE687F4005EF8D7 /* P5 Tip CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P5 Tip CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE597D742AE687F4005EF8D7 /* P5_Tip_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5_Tip_CalculatorUITests.swift; sourceTree = "<group>"; };
+		EE597D762AE687F4005EF8D7 /* P5_Tip_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5_Tip_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE597D872AE6890F005EF8D7 /* decimalKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = decimalKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE597D892AE6890F005EF8D7 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		EE597D8B2AE6890F005EF8D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE597D532AE687F3005EF8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE597D632AE687F4005EF8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE597D6D2AE687F4005EF8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE597D842AE6890F005EF8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE597D4D2AE687F3005EF8D7 = {
+			isa = PBXGroup;
+			children = (
+				EE597D582AE687F3005EF8D7 /* P5 Tip Calculator */,
+				EE597D692AE687F4005EF8D7 /* P5 Tip CalculatorTests */,
+				EE597D732AE687F4005EF8D7 /* P5 Tip CalculatorUITests */,
+				EE597D882AE6890F005EF8D7 /* decimalKeyboard */,
+				EE597D572AE687F3005EF8D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE597D572AE687F3005EF8D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE597D562AE687F3005EF8D7 /* P5 Tip Calculator.app */,
+				EE597D662AE687F4005EF8D7 /* P5 Tip CalculatorTests.xctest */,
+				EE597D702AE687F4005EF8D7 /* P5 Tip CalculatorUITests.xctest */,
+				EE597D872AE6890F005EF8D7 /* decimalKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE597D582AE687F3005EF8D7 /* P5 Tip Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				EE597D592AE687F3005EF8D7 /* P5_Tip_CalculatorApp.swift */,
+				EE597D5B2AE687F3005EF8D7 /* ContentView.swift */,
+				EE597D5D2AE687F4005EF8D7 /* Assets.xcassets */,
+				EE597D5F2AE687F4005EF8D7 /* Preview Content */,
+			);
+			path = "P5 Tip Calculator";
+			sourceTree = "<group>";
+		};
+		EE597D5F2AE687F4005EF8D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE597D602AE687F4005EF8D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE597D692AE687F4005EF8D7 /* P5 Tip CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE597D6A2AE687F4005EF8D7 /* P5_Tip_CalculatorTests.swift */,
+			);
+			path = "P5 Tip CalculatorTests";
+			sourceTree = "<group>";
+		};
+		EE597D732AE687F4005EF8D7 /* P5 Tip CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE597D742AE687F4005EF8D7 /* P5_Tip_CalculatorUITests.swift */,
+				EE597D762AE687F4005EF8D7 /* P5_Tip_CalculatorUITestsLaunchTests.swift */,
+			);
+			path = "P5 Tip CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		EE597D882AE6890F005EF8D7 /* decimalKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EE597D892AE6890F005EF8D7 /* KeyboardViewController.swift */,
+				EE597D8B2AE6890F005EF8D7 /* Info.plist */,
+			);
+			path = decimalKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE597D552AE687F3005EF8D7 /* P5 Tip Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE597D7A2AE687F4005EF8D7 /* Build configuration list for PBXNativeTarget "P5 Tip Calculator" */;
+			buildPhases = (
+				EE597D522AE687F3005EF8D7 /* Sources */,
+				EE597D532AE687F3005EF8D7 /* Frameworks */,
+				EE597D542AE687F3005EF8D7 /* Resources */,
+				EE597D922AE6890F005EF8D7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE597D8D2AE6890F005EF8D7 /* PBXTargetDependency */,
+			);
+			name = "P5 Tip Calculator";
+			productName = "P5 Tip Calculator";
+			productReference = EE597D562AE687F3005EF8D7 /* P5 Tip Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE597D652AE687F4005EF8D7 /* P5 Tip CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE597D7D2AE687F4005EF8D7 /* Build configuration list for PBXNativeTarget "P5 Tip CalculatorTests" */;
+			buildPhases = (
+				EE597D622AE687F4005EF8D7 /* Sources */,
+				EE597D632AE687F4005EF8D7 /* Frameworks */,
+				EE597D642AE687F4005EF8D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE597D682AE687F4005EF8D7 /* PBXTargetDependency */,
+			);
+			name = "P5 Tip CalculatorTests";
+			productName = "P5 Tip CalculatorTests";
+			productReference = EE597D662AE687F4005EF8D7 /* P5 Tip CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE597D6F2AE687F4005EF8D7 /* P5 Tip CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE597D802AE687F4005EF8D7 /* Build configuration list for PBXNativeTarget "P5 Tip CalculatorUITests" */;
+			buildPhases = (
+				EE597D6C2AE687F4005EF8D7 /* Sources */,
+				EE597D6D2AE687F4005EF8D7 /* Frameworks */,
+				EE597D6E2AE687F4005EF8D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE597D722AE687F4005EF8D7 /* PBXTargetDependency */,
+			);
+			name = "P5 Tip CalculatorUITests";
+			productName = "P5 Tip CalculatorUITests";
+			productReference = EE597D702AE687F4005EF8D7 /* P5 Tip CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EE597D862AE6890F005EF8D7 /* decimalKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE597D8F2AE6890F005EF8D7 /* Build configuration list for PBXNativeTarget "decimalKeyboard" */;
+			buildPhases = (
+				EE597D832AE6890F005EF8D7 /* Sources */,
+				EE597D842AE6890F005EF8D7 /* Frameworks */,
+				EE597D852AE6890F005EF8D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = decimalKeyboard;
+			productName = decimalKeyboard;
+			productReference = EE597D872AE6890F005EF8D7 /* decimalKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE597D4E2AE687F3005EF8D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EE597D552AE687F3005EF8D7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					EE597D652AE687F4005EF8D7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EE597D552AE687F3005EF8D7;
+					};
+					EE597D6F2AE687F4005EF8D7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EE597D552AE687F3005EF8D7;
+					};
+					EE597D862AE6890F005EF8D7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = EE597D512AE687F3005EF8D7 /* Build configuration list for PBXProject "P5 Tip Calculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE597D4D2AE687F3005EF8D7;
+			productRefGroup = EE597D572AE687F3005EF8D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE597D552AE687F3005EF8D7 /* P5 Tip Calculator */,
+				EE597D652AE687F4005EF8D7 /* P5 Tip CalculatorTests */,
+				EE597D6F2AE687F4005EF8D7 /* P5 Tip CalculatorUITests */,
+				EE597D862AE6890F005EF8D7 /* decimalKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE597D542AE687F3005EF8D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE597D612AE687F4005EF8D7 /* Preview Assets.xcassets in Resources */,
+				EE597D5E2AE687F4005EF8D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE597D642AE687F4005EF8D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE597D6E2AE687F4005EF8D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE597D852AE6890F005EF8D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE597D522AE687F3005EF8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE597D5C2AE687F3005EF8D7 /* ContentView.swift in Sources */,
+				EE597D5A2AE687F3005EF8D7 /* P5_Tip_CalculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE597D622AE687F4005EF8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE597D6B2AE687F4005EF8D7 /* P5_Tip_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE597D6C2AE687F4005EF8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE597D752AE687F4005EF8D7 /* P5_Tip_CalculatorUITests.swift in Sources */,
+				EE597D772AE687F4005EF8D7 /* P5_Tip_CalculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE597D832AE6890F005EF8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE597D8A2AE6890F005EF8D7 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE597D682AE687F4005EF8D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE597D552AE687F3005EF8D7 /* P5 Tip Calculator */;
+			targetProxy = EE597D672AE687F4005EF8D7 /* PBXContainerItemProxy */;
+		};
+		EE597D722AE687F4005EF8D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE597D552AE687F3005EF8D7 /* P5 Tip Calculator */;
+			targetProxy = EE597D712AE687F4005EF8D7 /* PBXContainerItemProxy */;
+		};
+		EE597D8D2AE6890F005EF8D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE597D862AE6890F005EF8D7 /* decimalKeyboard */;
+			targetProxy = EE597D8C2AE6890F005EF8D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE597D782AE687F4005EF8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE597D792AE687F4005EF8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE597D7B2AE687F4005EF8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"P5 Tip Calculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P5-Tip-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE597D7C2AE687F4005EF8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"P5 Tip Calculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P5-Tip-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE597D7E2AE687F4005EF8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P5-Tip-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P5 Tip Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/P5 Tip Calculator";
+			};
+			name = Debug;
+		};
+		EE597D7F2AE687F4005EF8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P5-Tip-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P5 Tip Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/P5 Tip Calculator";
+			};
+			name = Release;
+		};
+		EE597D812AE687F4005EF8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P5-Tip-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "P5 Tip Calculator";
+			};
+			name = Debug;
+		};
+		EE597D822AE687F4005EF8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P5-Tip-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "P5 Tip Calculator";
+			};
+			name = Release;
+		};
+		EE597D902AE6890F005EF8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = decimalKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = decimalKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P5-Tip-Calculator.decimalKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE597D912AE6890F005EF8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = decimalKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = decimalKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P5-Tip-Calculator.decimalKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE597D512AE687F3005EF8D7 /* Build configuration list for PBXProject "P5 Tip Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE597D782AE687F4005EF8D7 /* Debug */,
+				EE597D792AE687F4005EF8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE597D7A2AE687F4005EF8D7 /* Build configuration list for PBXNativeTarget "P5 Tip Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE597D7B2AE687F4005EF8D7 /* Debug */,
+				EE597D7C2AE687F4005EF8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE597D7D2AE687F4005EF8D7 /* Build configuration list for PBXNativeTarget "P5 Tip CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE597D7E2AE687F4005EF8D7 /* Debug */,
+				EE597D7F2AE687F4005EF8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE597D802AE687F4005EF8D7 /* Build configuration list for PBXNativeTarget "P5 Tip CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE597D812AE687F4005EF8D7 /* Debug */,
+				EE597D822AE687F4005EF8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE597D8F2AE6890F005EF8D7 /* Build configuration list for PBXNativeTarget "decimalKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE597D902AE6890F005EF8D7 /* Debug */,
+				EE597D912AE6890F005EF8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE597D4E2AE687F3005EF8D7 /* Project object */;
+}
