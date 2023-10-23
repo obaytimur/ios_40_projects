@@ -16,7 +16,7 @@ struct KeyboardView: View {
             TextField("$0.00", text: $amount)
                 .multilineTextAlignment(.trailing)
                 .font(.system(size: 120))
-                .keyboardType(.numberPad)
+                .keyboardType(.decimalPad)
                 .focused($isInputActive)
                 .toolbar {
                     ToolbarItemGroup(placement: .keyboard) {
@@ -36,7 +36,6 @@ struct ContentView: View {
     @State private var totalAmount = ""
     @State private var tipPercantage: Double = 15.0
     @State private var isEditing = false
-    @FocusState var isInputActive: Bool
 
     
     var body: some View {
@@ -45,12 +44,12 @@ struct ContentView: View {
                 KeyboardView(amount: $totalAmount)
                 HStack{
                     Spacer()
-                    Text("Tip (%\(Int(tipPercantage))) amount: \(String(format: "%2.f", calculation(totalAmount, tipPercantage) ))")
+                    Text("Tip (%\(Int(tipPercantage))) amount: $\(String(format: "%2.f", calculation(totalAmount, tipPercantage) ))")
                         .font(.headline)
                 }
                 HStack{
                     Spacer()
-                    Text("Total amount: \(String(format: "%2.f", sum(calculation(totalAmount, tipPercantage), totalAmount)))")
+                    Text("Total amount: $\(String(format: "%2.f", sum(calculation(totalAmount, tipPercantage), totalAmount)))")
                         .font(.headline)
                 }
                 Slider(value: $tipPercantage, in: 10...30, step:1){
@@ -73,13 +72,17 @@ struct ContentView: View {
 }
 
     func calculation (_ total: String,_ percentage: Double) -> Double {
-        if let totalAsDouble =  Double(total){
+        let nf = NumberFormatter()
+        nf.numberStyle = .decimal
+        if let totalAsDouble = nf.number(from: total)?.doubleValue {
             return totalAsDouble * percentage / 100
         }
         return 0
     }
     func sum (_ tipTotal: Double, _ total: String) -> Double{
-        if let totalAsDouble =  Double(total){
+        let nf = NumberFormatter()
+        nf.numberStyle = .decimal
+        if let totalAsDouble = nf.number(from: total)?.doubleValue {
             return totalAsDouble + tipTotal
         }
         return 0
