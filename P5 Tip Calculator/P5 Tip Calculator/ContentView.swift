@@ -44,12 +44,12 @@ struct ContentView: View {
                 KeyboardView(amount: $totalAmount)
                 HStack{
                     Spacer()
-                    Text("Tip (%\(Int(tipPercantage))) amount: $\(String(format: "%2.f", calculation(totalAmount, tipPercantage) ))")
+                    Text("Tip (%\(Int(tipPercantage))) amount: $\(String(format: "%.2f", calculation(totalAmount, tipPercantage) ))")
                         .font(.headline)
                 }
                 HStack{
                     Spacer()
-                    Text("Total amount: $\(String(format: "%2.f", sum(calculation(totalAmount, tipPercantage), totalAmount)))")
+                    Text("Total amount: $\(String(format: "%.2f", sum(calculation(totalAmount, tipPercantage), totalAmount)))")
                         .font(.headline)
                 }
                 Slider(value: $tipPercantage, in: 10...30, step:1){
