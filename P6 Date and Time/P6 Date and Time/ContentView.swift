@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var todaysDate = Date.now
+    @State private var todaysDate = Date.now.formatted(date: .long, time: .standard)
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
             Text("\(todaysDate)")
-            Button("Refresh") {
-                todaysDate = Date.now
-            }
+            Button(action: {
+                todaysDate = Date.now.formatted(date: .long, time: .standard)
+            }, label: {
+                Text("Refresh")
+            })
         }
         .padding()
     }
