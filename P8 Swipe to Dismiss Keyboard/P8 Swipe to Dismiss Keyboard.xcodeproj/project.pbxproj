@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE147AAD2AF0EA5E006C7764 /* P8_Swipe_to_Dismiss_KeyboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE147AAC2AF0EA5E006C7764 /* P8_Swipe_to_Dismiss_KeyboardApp.swift */; };
+		EE147AAF2AF0EA5E006C7764 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE147AAE2AF0EA5E006C7764 /* ContentView.swift */; };
+		EE147AB12AF0EA5E006C7764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE147AB02AF0EA5E006C7764 /* Assets.xcassets */; };
+		EE147AB42AF0EA5E006C7764 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE147AB32AF0EA5E006C7764 /* Preview Assets.xcassets */; };
+		EE147ABE2AF0EA5F006C7764 /* P8_Swipe_to_Dismiss_KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE147ABD2AF0EA5F006C7764 /* P8_Swipe_to_Dismiss_KeyboardTests.swift */; };
+		EE147AC82AF0EA5F006C7764 /* P8_Swipe_to_Dismiss_KeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE147AC72AF0EA5F006C7764 /* P8_Swipe_to_Dismiss_KeyboardUITests.swift */; };
+		EE147ACA2AF0EA5F006C7764 /* P8_Swipe_to_Dismiss_KeyboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE147AC92AF0EA5F006C7764 /* P8_Swipe_to_Dismiss_KeyboardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE147ABA2AF0EA5F006C7764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE147AA12AF0EA5E006C7764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE147AA82AF0EA5E006C7764;
+			remoteInfo = "P8 Swipe to Dismiss Keyboard";
+		};
+		EE147AC42AF0EA5F006C7764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE147AA12AF0EA5E006C7764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE147AA82AF0EA5E006C7764;
+			remoteInfo = "P8 Swipe to Dismiss Keyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE147AA92AF0EA5E006C7764 /* P8 Swipe to Dismiss Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P8 Swipe to Dismiss Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE147AAC2AF0EA5E006C7764 /* P8_Swipe_to_Dismiss_KeyboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P8_Swipe_to_Dismiss_KeyboardApp.swift; sourceTree = "<group>"; };
+		EE147AAE2AF0EA5E006C7764 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE147AB02AF0EA5E006C7764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE147AB32AF0EA5E006C7764 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE147AB92AF0EA5F006C7764 /* P8 Swipe to Dismiss KeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P8 Swipe to Dismiss KeyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE147ABD2AF0EA5F006C7764 /* P8_Swipe_to_Dismiss_KeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P8_Swipe_to_Dismiss_KeyboardTests.swift; sourceTree = "<group>"; };
+		EE147AC32AF0EA5F006C7764 /* P8 Swipe to Dismiss KeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P8 Swipe to Dismiss KeyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE147AC72AF0EA5F006C7764 /* P8_Swipe_to_Dismiss_KeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P8_Swipe_to_Dismiss_KeyboardUITests.swift; sourceTree = "<group>"; };
+		EE147AC92AF0EA5F006C7764 /* P8_Swipe_to_Dismiss_KeyboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P8_Swipe_to_Dismiss_KeyboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE147AA62AF0EA5E006C7764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE147AB62AF0EA5F006C7764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE147AC02AF0EA5F006C7764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE147AA02AF0EA5E006C7764 = {
+			isa = PBXGroup;
+			children = (
+				EE147AAB2AF0EA5E006C7764 /* P8 Swipe to Dismiss Keyboard */,
+				EE147ABC2AF0EA5F006C7764 /* P8 Swipe to Dismiss KeyboardTests */,
+				EE147AC62AF0EA5F006C7764 /* P8 Swipe to Dismiss KeyboardUITests */,
+				EE147AAA2AF0EA5E006C7764 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE147AAA2AF0EA5E006C7764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE147AA92AF0EA5E006C7764 /* P8 Swipe to Dismiss Keyboard.app */,
+				EE147AB92AF0EA5F006C7764 /* P8 Swipe to Dismiss KeyboardTests.xctest */,
+				EE147AC32AF0EA5F006C7764 /* P8 Swipe to Dismiss KeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE147AAB2AF0EA5E006C7764 /* P8 Swipe to Dismiss Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EE147AAC2AF0EA5E006C7764 /* P8_Swipe_to_Dismiss_KeyboardApp.swift */,
+				EE147AAE2AF0EA5E006C7764 /* ContentView.swift */,
+				EE147AB02AF0EA5E006C7764 /* Assets.xcassets */,
+				EE147AB22AF0EA5E006C7764 /* Preview Content */,
+			);
+			path = "P8 Swipe to Dismiss Keyboard";
+			sourceTree = "<group>";
+		};
+		EE147AB22AF0EA5E006C7764 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE147AB32AF0EA5E006C7764 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE147ABC2AF0EA5F006C7764 /* P8 Swipe to Dismiss KeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE147ABD2AF0EA5F006C7764 /* P8_Swipe_to_Dismiss_KeyboardTests.swift */,
+			);
+			path = "P8 Swipe to Dismiss KeyboardTests";
+			sourceTree = "<group>";
+		};
+		EE147AC62AF0EA5F006C7764 /* P8 Swipe to Dismiss KeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE147AC72AF0EA5F006C7764 /* P8_Swipe_to_Dismiss_KeyboardUITests.swift */,
+				EE147AC92AF0EA5F006C7764 /* P8_Swipe_to_Dismiss_KeyboardUITestsLaunchTests.swift */,
+			);
+			path = "P8 Swipe to Dismiss KeyboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE147AA82AF0EA5E006C7764 /* P8 Swipe to Dismiss Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE147ACD2AF0EA5F006C7764 /* Build configuration list for PBXNativeTarget "P8 Swipe to Dismiss Keyboard" */;
+			buildPhases = (
+				EE147AA52AF0EA5E006C7764 /* Sources */,
+				EE147AA62AF0EA5E006C7764 /* Frameworks */,
+				EE147AA72AF0EA5E006C7764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "P8 Swipe to Dismiss Keyboard";
+			productName = "P8 Swipe to Dismiss Keyboard";
+			productReference = EE147AA92AF0EA5E006C7764 /* P8 Swipe to Dismiss Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE147AB82AF0EA5F006C7764 /* P8 Swipe to Dismiss KeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE147AD02AF0EA5F006C7764 /* Build configuration list for PBXNativeTarget "P8 Swipe to Dismiss KeyboardTests" */;
+			buildPhases = (
+				EE147AB52AF0EA5F006C7764 /* Sources */,
+				EE147AB62AF0EA5F006C7764 /* Frameworks */,
+				EE147AB72AF0EA5F006C7764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE147ABB2AF0EA5F006C7764 /* PBXTargetDependency */,
+			);
+			name = "P8 Swipe to Dismiss KeyboardTests";
+			productName = "P8 Swipe to Dismiss KeyboardTests";
+			productReference = EE147AB92AF0EA5F006C7764 /* P8 Swipe to Dismiss KeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE147AC22AF0EA5F006C7764 /* P8 Swipe to Dismiss KeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE147AD32AF0EA5F006C7764 /* Build configuration list for PBXNativeTarget "P8 Swipe to Dismiss KeyboardUITests" */;
+			buildPhases = (
+				EE147ABF2AF0EA5F006C7764 /* Sources */,
+				EE147AC02AF0EA5F006C7764 /* Frameworks */,
+				EE147AC12AF0EA5F006C7764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE147AC52AF0EA5F006C7764 /* PBXTargetDependency */,
+			);
+			name = "P8 Swipe to Dismiss KeyboardUITests";
+			productName = "P8 Swipe to Dismiss KeyboardUITests";
+			productReference = EE147AC32AF0EA5F006C7764 /* P8 Swipe to Dismiss KeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE147AA12AF0EA5E006C7764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EE147AA82AF0EA5E006C7764 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					EE147AB82AF0EA5F006C7764 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EE147AA82AF0EA5E006C7764;
+					};
+					EE147AC22AF0EA5F006C7764 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EE147AA82AF0EA5E006C7764;
+					};
+				};
+			};
+			buildConfigurationList = EE147AA42AF0EA5E006C7764 /* Build configuration list for PBXProject "P8 Swipe to Dismiss Keyboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE147AA02AF0EA5E006C7764;
+			productRefGroup = EE147AAA2AF0EA5E006C7764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE147AA82AF0EA5E006C7764 /* P8 Swipe to Dismiss Keyboard */,
+				EE147AB82AF0EA5F006C7764 /* P8 Swipe to Dismiss KeyboardTests */,
+				EE147AC22AF0EA5F006C7764 /* P8 Swipe to Dismiss KeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE147AA72AF0EA5E006C7764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE147AB42AF0EA5E006C7764 /* Preview Assets.xcassets in Resources */,
+				EE147AB12AF0EA5E006C7764 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE147AB72AF0EA5F006C7764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE147AC12AF0EA5F006C7764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE147AA52AF0EA5E006C7764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE147AAF2AF0EA5E006C7764 /* ContentView.swift in Sources */,
+				EE147AAD2AF0EA5E006C7764 /* P8_Swipe_to_Dismiss_KeyboardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE147AB52AF0EA5F006C7764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE147ABE2AF0EA5F006C7764 /* P8_Swipe_to_Dismiss_KeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE147ABF2AF0EA5F006C7764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE147ACA2AF0EA5F006C7764 /* P8_Swipe_to_Dismiss_KeyboardUITestsLaunchTests.swift in Sources */,
+				EE147AC82AF0EA5F006C7764 /* P8_Swipe_to_Dismiss_KeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE147ABB2AF0EA5F006C7764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE147AA82AF0EA5E006C7764 /* P8 Swipe to Dismiss Keyboard */;
+			targetProxy = EE147ABA2AF0EA5F006C7764 /* PBXContainerItemProxy */;
+		};
+		EE147AC52AF0EA5F006C7764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE147AA82AF0EA5E006C7764 /* P8 Swipe to Dismiss Keyboard */;
+			targetProxy = EE147AC42AF0EA5F006C7764 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE147ACB2AF0EA5F006C7764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE147ACC2AF0EA5F006C7764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE147ACE2AF0EA5F006C7764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"P8 Swipe to Dismiss Keyboard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P8-Swipe-to-Dismiss-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE147ACF2AF0EA5F006C7764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"P8 Swipe to Dismiss Keyboard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P8-Swipe-to-Dismiss-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE147AD12AF0EA5F006C7764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P8-Swipe-to-Dismiss-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P8 Swipe to Dismiss Keyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/P8 Swipe to Dismiss Keyboard";
+			};
+			name = Debug;
+		};
+		EE147AD22AF0EA5F006C7764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P8-Swipe-to-Dismiss-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P8 Swipe to Dismiss Keyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/P8 Swipe to Dismiss Keyboard";
+			};
+			name = Release;
+		};
+		EE147AD42AF0EA5F006C7764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P8-Swipe-to-Dismiss-KeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "P8 Swipe to Dismiss Keyboard";
+			};
+			name = Debug;
+		};
+		EE147AD52AF0EA5F006C7764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P8-Swipe-to-Dismiss-KeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "P8 Swipe to Dismiss Keyboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE147AA42AF0EA5E006C7764 /* Build configuration list for PBXProject "P8 Swipe to Dismiss Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE147ACB2AF0EA5F006C7764 /* Debug */,
+				EE147ACC2AF0EA5F006C7764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE147ACD2AF0EA5F006C7764 /* Build configuration list for PBXNativeTarget "P8 Swipe to Dismiss Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE147ACE2AF0EA5F006C7764 /* Debug */,
+				EE147ACF2AF0EA5F006C7764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE147AD02AF0EA5F006C7764 /* Build configuration list for PBXNativeTarget "P8 Swipe to Dismiss KeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE147AD12AF0EA5F006C7764 /* Debug */,
+				EE147AD22AF0EA5F006C7764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE147AD32AF0EA5F006C7764 /* Build configuration list for PBXNativeTarget "P8 Swipe to Dismiss KeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE147AD42AF0EA5F006C7764 /* Debug */,
+				EE147AD52AF0EA5F006C7764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE147AA12AF0EA5E006C7764 /* Project object */;
+}
