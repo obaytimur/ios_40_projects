@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE07F4C62AF14533004A0454 /* P9_Add_Photo_from_CameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07F4C52AF14533004A0454 /* P9_Add_Photo_from_CameraApp.swift */; };
+		EE07F4C82AF14533004A0454 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07F4C72AF14533004A0454 /* ContentView.swift */; };
+		EE07F4CA2AF14533004A0454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE07F4C92AF14533004A0454 /* Assets.xcassets */; };
+		EE07F4CD2AF14533004A0454 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE07F4CC2AF14533004A0454 /* Preview Assets.xcassets */; };
+		EE07F4D72AF14533004A0454 /* P9_Add_Photo_from_CameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07F4D62AF14533004A0454 /* P9_Add_Photo_from_CameraTests.swift */; };
+		EE07F4E12AF14533004A0454 /* P9_Add_Photo_from_CameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07F4E02AF14533004A0454 /* P9_Add_Photo_from_CameraUITests.swift */; };
+		EE07F4E32AF14533004A0454 /* P9_Add_Photo_from_CameraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07F4E22AF14533004A0454 /* P9_Add_Photo_from_CameraUITestsLaunchTests.swift */; };
+		EE07F4F02AF14599004A0454 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE07F4EF2AF14599004A0454 /* ImagePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE07F4D32AF14533004A0454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE07F4BA2AF14532004A0454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE07F4C12AF14532004A0454;
+			remoteInfo = "P9 Add Photo from Camera";
+		};
+		EE07F4DD2AF14533004A0454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE07F4BA2AF14532004A0454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE07F4C12AF14532004A0454;
+			remoteInfo = "P9 Add Photo from Camera";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE07F4C22AF14533004A0454 /* P9 Add Photo from Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P9 Add Photo from Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE07F4C52AF14533004A0454 /* P9_Add_Photo_from_CameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P9_Add_Photo_from_CameraApp.swift; sourceTree = "<group>"; };
+		EE07F4C72AF14533004A0454 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE07F4C92AF14533004A0454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE07F4CC2AF14533004A0454 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE07F4D22AF14533004A0454 /* P9 Add Photo from CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P9 Add Photo from CameraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE07F4D62AF14533004A0454 /* P9_Add_Photo_from_CameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P9_Add_Photo_from_CameraTests.swift; sourceTree = "<group>"; };
+		EE07F4DC2AF14533004A0454 /* P9 Add Photo from CameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P9 Add Photo from CameraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE07F4E02AF14533004A0454 /* P9_Add_Photo_from_CameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P9_Add_Photo_from_CameraUITests.swift; sourceTree = "<group>"; };
+		EE07F4E22AF14533004A0454 /* P9_Add_Photo_from_CameraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P9_Add_Photo_from_CameraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE07F4EF2AF14599004A0454 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE07F4BF2AF14532004A0454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE07F4CF2AF14533004A0454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE07F4D92AF14533004A0454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE07F4B92AF14532004A0454 = {
+			isa = PBXGroup;
+			children = (
+				EE07F4C42AF14533004A0454 /* P9 Add Photo from Camera */,
+				EE07F4D52AF14533004A0454 /* P9 Add Photo from CameraTests */,
+				EE07F4DF2AF14533004A0454 /* P9 Add Photo from CameraUITests */,
+				EE07F4C32AF14533004A0454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE07F4C32AF14533004A0454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE07F4C22AF14533004A0454 /* P9 Add Photo from Camera.app */,
+				EE07F4D22AF14533004A0454 /* P9 Add Photo from CameraTests.xctest */,
+				EE07F4DC2AF14533004A0454 /* P9 Add Photo from CameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE07F4C42AF14533004A0454 /* P9 Add Photo from Camera */ = {
+			isa = PBXGroup;
+			children = (
+				EE07F4EF2AF14599004A0454 /* ImagePicker.swift */,
+				EE07F4C52AF14533004A0454 /* P9_Add_Photo_from_CameraApp.swift */,
+				EE07F4C72AF14533004A0454 /* ContentView.swift */,
+				EE07F4C92AF14533004A0454 /* Assets.xcassets */,
+				EE07F4CB2AF14533004A0454 /* Preview Content */,
+			);
+			path = "P9 Add Photo from Camera";
+			sourceTree = "<group>";
+		};
+		EE07F4CB2AF14533004A0454 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE07F4CC2AF14533004A0454 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE07F4D52AF14533004A0454 /* P9 Add Photo from CameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE07F4D62AF14533004A0454 /* P9_Add_Photo_from_CameraTests.swift */,
+			);
+			path = "P9 Add Photo from CameraTests";
+			sourceTree = "<group>";
+		};
+		EE07F4DF2AF14533004A0454 /* P9 Add Photo from CameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE07F4E02AF14533004A0454 /* P9_Add_Photo_from_CameraUITests.swift */,
+				EE07F4E22AF14533004A0454 /* P9_Add_Photo_from_CameraUITestsLaunchTests.swift */,
+			);
+			path = "P9 Add Photo from CameraUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE07F4C12AF14532004A0454 /* P9 Add Photo from Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE07F4E62AF14533004A0454 /* Build configuration list for PBXNativeTarget "P9 Add Photo from Camera" */;
+			buildPhases = (
+				EE07F4BE2AF14532004A0454 /* Sources */,
+				EE07F4BF2AF14532004A0454 /* Frameworks */,
+				EE07F4C02AF14532004A0454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "P9 Add Photo from Camera";
+			productName = "P9 Add Photo from Camera";
+			productReference = EE07F4C22AF14533004A0454 /* P9 Add Photo from Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE07F4D12AF14533004A0454 /* P9 Add Photo from CameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE07F4E92AF14533004A0454 /* Build configuration list for PBXNativeTarget "P9 Add Photo from CameraTests" */;
+			buildPhases = (
+				EE07F4CE2AF14533004A0454 /* Sources */,
+				EE07F4CF2AF14533004A0454 /* Frameworks */,
+				EE07F4D02AF14533004A0454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE07F4D42AF14533004A0454 /* PBXTargetDependency */,
+			);
+			name = "P9 Add Photo from CameraTests";
+			productName = "P9 Add Photo from CameraTests";
+			productReference = EE07F4D22AF14533004A0454 /* P9 Add Photo from CameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE07F4DB2AF14533004A0454 /* P9 Add Photo from CameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE07F4EC2AF14533004A0454 /* Build configuration list for PBXNativeTarget "P9 Add Photo from CameraUITests" */;
+			buildPhases = (
+				EE07F4D82AF14533004A0454 /* Sources */,
+				EE07F4D92AF14533004A0454 /* Frameworks */,
+				EE07F4DA2AF14533004A0454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE07F4DE2AF14533004A0454 /* PBXTargetDependency */,
+			);
+			name = "P9 Add Photo from CameraUITests";
+			productName = "P9 Add Photo from CameraUITests";
+			productReference = EE07F4DC2AF14533004A0454 /* P9 Add Photo from CameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE07F4BA2AF14532004A0454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EE07F4C12AF14532004A0454 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					EE07F4D12AF14533004A0454 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EE07F4C12AF14532004A0454;
+					};
+					EE07F4DB2AF14533004A0454 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EE07F4C12AF14532004A0454;
+					};
+				};
+			};
+			buildConfigurationList = EE07F4BD2AF14532004A0454 /* Build configuration list for PBXProject "P9 Add Photo from Camera" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE07F4B92AF14532004A0454;
+			productRefGroup = EE07F4C32AF14533004A0454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE07F4C12AF14532004A0454 /* P9 Add Photo from Camera */,
+				EE07F4D12AF14533004A0454 /* P9 Add Photo from CameraTests */,
+				EE07F4DB2AF14533004A0454 /* P9 Add Photo from CameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE07F4C02AF14532004A0454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE07F4CD2AF14533004A0454 /* Preview Assets.xcassets in Resources */,
+				EE07F4CA2AF14533004A0454 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE07F4D02AF14533004A0454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE07F4DA2AF14533004A0454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE07F4BE2AF14532004A0454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE07F4F02AF14599004A0454 /* ImagePicker.swift in Sources */,
+				EE07F4C82AF14533004A0454 /* ContentView.swift in Sources */,
+				EE07F4C62AF14533004A0454 /* P9_Add_Photo_from_CameraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE07F4CE2AF14533004A0454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE07F4D72AF14533004A0454 /* P9_Add_Photo_from_CameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE07F4D82AF14533004A0454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE07F4E12AF14533004A0454 /* P9_Add_Photo_from_CameraUITests.swift in Sources */,
+				EE07F4E32AF14533004A0454 /* P9_Add_Photo_from_CameraUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE07F4D42AF14533004A0454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE07F4C12AF14532004A0454 /* P9 Add Photo from Camera */;
+			targetProxy = EE07F4D32AF14533004A0454 /* PBXContainerItemProxy */;
+		};
+		EE07F4DE2AF14533004A0454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE07F4C12AF14532004A0454 /* P9 Add Photo from Camera */;
+			targetProxy = EE07F4DD2AF14533004A0454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE07F4E42AF14533004A0454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need permission for the camera";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE07F4E52AF14533004A0454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need permission for the camera";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE07F4E72AF14533004A0454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"P9 Add Photo from Camera/Preview Content\"";
+				DEVELOPMENT_TEAM = S5ZBBP3832;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P9-Add-Photo-from-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE07F4E82AF14533004A0454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"P9 Add Photo from Camera/Preview Content\"";
+				DEVELOPMENT_TEAM = S5ZBBP3832;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P9-Add-Photo-from-Camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE07F4EA2AF14533004A0454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P9-Add-Photo-from-CameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P9 Add Photo from Camera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/P9 Add Photo from Camera";
+			};
+			name = Debug;
+		};
+		EE07F4EB2AF14533004A0454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P9-Add-Photo-from-CameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P9 Add Photo from Camera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/P9 Add Photo from Camera";
+			};
+			name = Release;
+		};
+		EE07F4ED2AF14533004A0454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P9-Add-Photo-from-CameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "P9 Add Photo from Camera";
+			};
+			name = Debug;
+		};
+		EE07F4EE2AF14533004A0454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ogi.P9-Add-Photo-from-CameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "P9 Add Photo from Camera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE07F4BD2AF14532004A0454 /* Build configuration list for PBXProject "P9 Add Photo from Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE07F4E42AF14533004A0454 /* Debug */,
+				EE07F4E52AF14533004A0454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE07F4E62AF14533004A0454 /* Build configuration list for PBXNativeTarget "P9 Add Photo from Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE07F4E72AF14533004A0454 /* Debug */,
+				EE07F4E82AF14533004A0454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE07F4E92AF14533004A0454 /* Build configuration list for PBXNativeTarget "P9 Add Photo from CameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE07F4EA2AF14533004A0454 /* Debug */,
+				EE07F4EB2AF14533004A0454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE07F4EC2AF14533004A0454 /* Build configuration list for PBXNativeTarget "P9 Add Photo from CameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE07F4ED2AF14533004A0454 /* Debug */,
+				EE07F4EE2AF14533004A0454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE07F4BA2AF14532004A0454 /* Project object */;
+}
