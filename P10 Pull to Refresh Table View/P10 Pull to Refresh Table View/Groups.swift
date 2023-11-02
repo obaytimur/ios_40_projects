@@ -24,7 +24,7 @@ struct Groups: Identifiable, Codable{
 
 extension Groups{
     static var emptyGroup: Groups{
-        Groups(name: "", icon: "note", subItems: ["Item 1", "Item 2", "Item 3"])
+        Groups(name: "", icon: "note", subItems: [])
     }
 }
 

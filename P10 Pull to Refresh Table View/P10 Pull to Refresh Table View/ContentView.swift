@@ -10,15 +10,24 @@ import SwiftUI
 struct ContentView: View {
     @Binding var groupArr: [Groups]
     @State private var isNewGroupPressed = false
+    @State private var groupBuffer = [Groups]()
+    
     var body: some View {
         NavigationStack{
-            List($groupArr){$group in
-                Section(header: Label(group.name, systemImage: group.icon)){
+            List($groupArr) {$group in
+                Section(header: Label(group.name, systemImage: group.icon)
+                                    .font(.headline)
+                                    .foregroundStyle(.black)
+                ){
                     ForEach(group.subItems, id: \.self){item in
                     Text(item)}
                 }
             }
-            .navigationTitle("Lists")
+            .refreshable {
+                try? await Task.sleep(nanoseconds: 500_000_000)
+                groupArr.append(contentsOf: groupBuffer)
+            }
+            .navigationTitle("Groups")
             .toolbar{
                 ToolbarItem{
                     Button("Add"){
@@ -28,7 +37,7 @@ struct ContentView: View {
             }
         }
         .sheet(isPresented: $isNewGroupPressed) {
-            
+            newGroupSheet(groups: $groupBuffer, isNewGroupPressed: $isNewGroupPressed)
         }
     }
 }
