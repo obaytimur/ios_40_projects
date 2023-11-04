@@ -7,14 +7,23 @@
 
 import Foundation
 
+struct Items: Identifiable{
+    var id: UUID
+    var items = [String]()
+    
+    init(id: UUID = UUID(), items: [String] = [String]()) {
+        self.id = id
+        self.items = items
+    }
+}
 
 struct Groups: Identifiable, Codable{
     var name: String
     var id: UUID
     var icon: String
-    var subItems = [String]()
+    var subItems = Items
     
-    init(name: String, id: UUID = UUID(), icon: String, subItems: [String]) {
+    init(name: String, id: UUID = UUID(), icon: String, subItems: Items) {
         self.name = name
         self.id = id
         self.icon = icon
@@ -24,7 +33,7 @@ struct Groups: Identifiable, Codable{
 
 extension Groups{
     static var emptyGroup: Groups{
-        Groups(name: "", icon: "note", subItems: [])
+        Groups(name: "", icon: "note", Items: [])
     }
 }
 

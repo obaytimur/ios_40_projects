@@ -1,7 +1,7 @@
 //
 //  ContentView.swift
 //  P10 Pull to Refresh Table View
-//
+//a
 //  Created by Oğulcan Baytimur on 01/11/2023.
 //
 
@@ -10,19 +10,29 @@ import SwiftUI
 struct ContentView: View {
     @Binding var groupArr: [Groups]
     @State private var isNewGroupPressed = false
+    @State private var isEditPressed = false
     @State private var groupBuffer = [Groups]()
     
     var body: some View {
         NavigationStack{
-            List($groupArr) {$group in
+            List($groupArr, editActions: .all) {$group in
                 Section(header: Label(group.name, systemImage: group.icon)
                                     .font(.headline)
                                     .foregroundStyle(.black)
                 ){
                     ForEach(group.subItems, id: \.self){item in
-                    Text(item)}
+                        Text(item)
+                    }
                 }
             }
+            .swipeActions {
+                                        Button(role: .destructive){
+                                            print("Delete Item")
+                                        } label: {
+                                            Label("Delete", systemImage: "trash")
+                                        }
+                                    }
+            .navigationBarItems(leading: EditButton())
             .refreshable {
                 try? await Task.sleep(nanoseconds: 500_000_000)
                 groupArr.append(contentsOf: groupBuffer)
