@@ -20,7 +20,7 @@ struct newGroupSheet: View {
                     NavigationLink("Group Icon: \(Image(systemName: newGroup.icon))", destination: IconPicker(group: $newGroup))
                 }
                 Section{
-                    ForEach(newGroup.subItems, id: \.self){item in
+                    ForEach(newGroup.subItems){item in
                         Text(item)}
                     HStack{
                         TextField("Add Item", text: $newItem)

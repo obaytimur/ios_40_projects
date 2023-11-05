@@ -20,8 +20,8 @@ struct ContentView: View {
                                     .font(.headline)
                                     .foregroundStyle(.black)
                 ){
-                    ForEach(group.subItems, id: \.self){item in
-                        Text(item)
+                    ForEach(group.subItems){item in
+                        Text("\(item)")
                     }
                 }
             }

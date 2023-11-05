@@ -7,23 +7,23 @@
 
 import Foundation
 
-struct Items: Identifiable{
+struct Item: Identifiable{
     var id: UUID
-    var items = [String]()
+    var item: String
     
-    init(id: UUID = UUID(), items: [String] = [String]()) {
+    init(id: UUID = UUID(), item: String){
         self.id = id
-        self.items = items
+        self.item = item
     }
 }
 
-struct Groups: Identifiable, Codable{
+struct Groups: Identifiable{
     var name: String
     var id: UUID
     var icon: String
-    var subItems = Items
+    var subItems = [Item]()
     
-    init(name: String, id: UUID = UUID(), icon: String, subItems: Items) {
+    init(name: String, id: UUID = UUID(), icon: String, subItems: [Item]) {
         self.name = name
         self.id = id
         self.icon = icon
@@ -33,14 +33,14 @@ struct Groups: Identifiable, Codable{
 
 extension Groups{
     static var emptyGroup: Groups{
-        Groups(name: "", icon: "note", Items: [])
+        Groups(name: "", icon: "note", subItems: [Item]() )
     }
 }
 
 extension Groups{
     static let sampleData: [Groups] =
     [
-        Groups(name: "Animals", icon: "note", subItems: ["Horse", "Monkey", "Donkey"]),
-        Groups(name: "Devices", icon: "note", subItems: ["Macbook", "iPhone", "Ipad"])
+        Groups(name: "Animals", icon: "note", subItems: [Item(item: "Horse"), Item(item: "Monkey"), Item(item: "Donkey")]),
+        Groups(name: "Devices", icon: "note", subItems: [Item(item: "Horse"), Item(item: "Monkey"), Item(item: "Donkey")])
     ]
 }
