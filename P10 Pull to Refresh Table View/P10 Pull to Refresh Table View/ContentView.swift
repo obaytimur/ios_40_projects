@@ -21,7 +21,7 @@ struct ContentView: View {
                                     .foregroundStyle(.black)
                 ){
                     ForEach(group.subItems){item in
-                        Text("\(item)")
+                        Text("\(item.name)")
                     }
                 }
             }

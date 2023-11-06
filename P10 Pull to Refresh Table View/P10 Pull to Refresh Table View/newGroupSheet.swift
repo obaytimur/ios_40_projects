@@ -11,7 +11,7 @@ struct newGroupSheet: View {
     @Binding var groups: [Groups]
     @Binding var isNewGroupPressed: Bool
     @State private var newGroup = Groups.emptyGroup
-    @State private var newItem = ""
+    @State private var newItem  = Item(name: "")
     var body: some View {
         NavigationStack{
             List{
@@ -21,13 +21,13 @@ struct newGroupSheet: View {
                 }
                 Section{
                     ForEach(newGroup.subItems){item in
-                        Text(item)}
+                        Text(item.name)}
                     HStack{
-                        TextField("Add Item", text: $newItem)
+                        TextField("Add Item", text: $newItem.item)
                         Button(action: {
                             withAnimation{
                                 newGroup.subItems.append(newItem)
-                                newItem = ""
+                                newItem = Item(item: "")
                             }
                         }){
                             Image(systemName: "plus.circle.fill")
