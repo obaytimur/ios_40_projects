@@ -15,23 +15,18 @@ struct ContentView: View {
     
     var body: some View {
         NavigationStack{
-            List($groupArr, editActions: .all) {$group in
-                Section(header: Label(group.name, systemImage: group.icon)
-                                    .font(.headline)
-                                    .foregroundStyle(.black)
-                ){
-                    ForEach(group.subItems){item in
-                        Text("\(item.name)")
+            List() {
+                ForEach($groupArr){$group in
+                    Section(header: Label(group.name, systemImage: group.icon)
+                        .font(.headline)
+                        .foregroundStyle(.black)
+                    ){
+                        ForEach(group.subItems){item in
+                            Text("\(item.name)")
+                        }
                     }
                 }
             }
-            .swipeActions {
-                                        Button(role: .destructive){
-                                            print("Delete Item")
-                                        } label: {
-                                            Label("Delete", systemImage: "trash")
-                                        }
-                                    }
             .navigationBarItems(leading: EditButton())
             .refreshable {
                 try? await Task.sleep(nanoseconds: 500_000_000)

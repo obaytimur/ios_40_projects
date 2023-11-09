@@ -23,16 +23,16 @@ struct newGroupSheet: View {
                     ForEach(newGroup.subItems){item in
                         Text(item.name)}
                     HStack{
-                        TextField("Add Item", text: $newItem.item)
+                        TextField("Add Item", text: $newItem.name)
                         Button(action: {
                             withAnimation{
                                 newGroup.subItems.append(newItem)
-                                newItem = Item(item: "")
+                                newItem = Item(name: "")
                             }
                         }){
                             Image(systemName: "plus.circle.fill")
                         }
-                        .disabled(newItem.isEmpty)
+                        .disabled(newItem.name.isEmpty)
                     }
                 }
             }

@@ -33,7 +33,7 @@ struct Groups: Identifiable, Codable, Hashable{
 
 extension Groups{
     static var emptyGroup: Groups{
-        Groups(name: "", icon: "note", subItems: [Item]() )
+        Groups(name: "", icon: "note", subItems: [Item] () )
     }
 }
 
@@ -41,6 +41,6 @@ extension Groups{
     static let sampleData: [Groups] =
     [
         Groups(name: "Animals", icon: "note", subItems: [Item(name: "Horse"), Item(name: "Monkey"), Item(name: "Donkey")]),
-        Groups(name: "Devices", icon: "note", subItems: [Item(name: "Horse"), Item(name: "Monkey"), Item(name: "Donkey")])
+        Groups(name: "Devices", icon: "note", subItems: [Item(name: "Macbook"), Item(name: "iPad"), Item(name: "iPhone")])
     ]
 }
