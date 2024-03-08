@@ -1,0 +1,8 @@
+func arrayToDict(inputArray: [ [String : String] ] ) ->  [String : [ [String:String] ] ] {
+        var outputDict: [String : [ [String : String] ] ] = [:]
+        for dict in inputArray {
+            let key = dict["title"]?.first
+            outputDict["\(key!)", default: [ [ : ] ] ].append(dict)
+        }
+        return outputDict
+    }
